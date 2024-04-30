@@ -12,9 +12,14 @@ body {
 }
 
 .container {
-	max-width: 800px; 
-	margin: 0 auto; 	
-	padding: 20px;
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-family: "Bungee Shade", sans-serif;
+	font-weight: 600;
 }
 
 h3 {
@@ -35,6 +40,8 @@ hr {
 	padding: 20px 0;
 	background-color: #3a3333; 
 	border-radius: 15rem;
+	width: 60%;
+	margin: 0 2rem;
 }
 
 code {
@@ -43,6 +50,9 @@ code {
 	color: #333; 
 	background-color: #f0f0f0; 
 	border-radius: 4px; 
+	white-space: nowrap;
+	text-wrap: wrap;
+	line-height: 3.5rem;
 }
 
 ul {
@@ -56,7 +66,7 @@ li {
 }
 
 a {
-	color: #187ce7 ; 
+	color: #fff ; 
 	text-decoration: none; 	
 	transition: color 0.3s ease;
 	padding: 0.5rem 2rem;
