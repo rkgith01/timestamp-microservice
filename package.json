@@ -1,7 +1,7 @@
 {
-  "name": "fcc-api-projects-boilerplate",
+  "name": "timestamp-microservice-fcc",
   "version": "0.0.1",
-  "description": "An FCC Backend Challenge",
+  "description": "An FCC Backend Challenge by Raj Kapadia",
   "main": "index.js",
   "scripts": {
     "start": "nodemon index.js"
